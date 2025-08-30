@@ -1,0 +1,22 @@
+#COmments! 
+#THis file mimics the general structure of a github action <3 
+
+name: hello_world 
+
+#Trigger 
+
+#on is an array, a - is an element in an array 
+#event: push (is one push, it can be speicfic to one branch)
+on: 
+- push 
+
+# one or more jobs 
+
+#Jobs are run sequentially (but if you toggle it: it can be in parallel too)
+jobs: #PLease group your job into logical steps 
+    job_name_which_is_arbitrary_and_user_defined: #yeah what the fuck lmfao 
+        runs-on: ubuntu-latest #server/agent #autocomplete? (see screenshot)
+        steps: 
+        - id: s00 #Best practise: always give it an ID!!
+          # basically running some shell command 
+          run: echo "CUrrent time in Github is $(date)"
