@@ -19,7 +19,10 @@ jobs: #PLease group your job into logical steps
         steps: 
         - id: s00 #Best practise: always give it an ID!!
           # basically running some shell command 
-          run: echo "CUrrent time in Github is $(date)" >> $GITHUB_OUTPUT
+          run: echo "CUrrent time in Github is $(date), ${GITHUB_OUTPUT}" 
+        - id: s01 #Best practise: always give it an ID!!
+          # basically running some shell command 
+          run: echo "CURR_DATE=$(date)" >> ${GITHUB_OUTPUT}
         # - id: s01 
         #   run: pwd; ls -alh; ls .. -alh; find . -name 'just_create_a_file.txt'; cat ./just_create_a_file.txt
     cowsay_test:
@@ -28,5 +31,5 @@ jobs: #PLease group your job into logical steps
           - id: s02
             uses: mscoutermarsh/cowsays-action@master
             with:
-              text: 'ship ship ship!'
+              text: 'ship ship ship! ${{ steps.s01.outputs.CURR_DATE }} '
               color: 'red'
