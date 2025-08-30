@@ -20,3 +20,5 @@ jobs: #PLease group your job into logical steps
         - id: s00 #Best practise: always give it an ID!!
           # basically running some shell command 
           run: echo "CUrrent time in Github is $(date)"
+        - id: s01 
+          run: cat just_create_a_file.txt
