@@ -26,5 +26,10 @@ jobs: #PLease group your job into logical steps
         - id: s02
           uses: mscoutermarsh/cowsays-action@master
           with:
-              text: 'ship ship ship! ${{ steps.s01.outputs.CURR_DATE }} '
+              text: 'ship ship ship! ${{ steps.s01.outputs.CURR_DATE }} ${{github.ref}}, ${{github.repository}}'
               color: 'red'
+        
+        
+        
+        # - id: s01 
+        #   run: pwd; ls -alh; ls .. -alh; find . -name 'just_create_a_file.txt'; cat ./just_create_a_file.txt
