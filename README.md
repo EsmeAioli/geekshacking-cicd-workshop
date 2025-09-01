@@ -1,31 +1,29 @@
 # geekshacking-cicd-workshop
 
 > [!NOTE]
-> This readme has been drafted up by ChatGPT, so a quick overview on what I've done can be thrown up in the interim: Esme hopes to have a writeup done in her own voice in due time <3
+> This README is a work-in-progress reflection — iterated quickly so context isn’t lost.
 
-This repo (and [EsmeAioli/countingbook](https://github.com/EsmeAioli/countingbook)) is a record of my hands-on learning at the [**Geekshacking Git Ready For Action** CI/CD Workshop](https://www.eventbrite.sg/e/git-ready-for-action-workshop-tickets-1609903969109) (August 2025) at [GovTech Singapore](https://github.com/govtechsg).  
+This repo (and [EsmeAioli/countingbook](https://github.com/EsmeAioli/countingbook)) captures my notes and exercises from the hands-on [**Geekshacking Git Ready For Action** CI/CD Workshop](https://www.eventbrite.sg/e/git-ready-for-action-workshop-tickets-1609903969109) (August 2025) at [GovTech Singapore](https://github.com/govtechsg).  
 
-Neither repo includes code I wrote from scratch - look to [Chuk's](https://github.com/chukmunnlee) [code](https://github.com/chukmunnlee/geekshacking-workshop-2025-aug30) for the source of this 🙂 — the infra pieces were built as part of the workshop’s exercises.  
-
-I’m keeping this here because even as a practicing engineer, going to these workshops to get a structured, rigoured “back to basics” overview is incredibly valuable.
+The infra pieces here were built during the workshop — they’re not “portfolio projects” but a record of how I revisited the fundamentals in a structured setting.
 
 ---
 
 ## 🛠️ Why this mattered
 
-- **Bridging eras**: a refresher on moving from older Jenkins-style CI/CD to today’s cloud-native workflows.  
-- **Contexts matter**: subtle but important DX tips for GitHub Actions (contexts, secrets, reusable workflows).  
-- **Scalability reminders**: Netlify + simple pipelines are great for quick starts, but scaling up brings real trade-offs.  
-- **Editor/DX setups**: new tricks for VSCode developer experience, especially for fast prototyping.  
-- **MCPs & ecosystem updates**: caught up on modern build/test/deploy practices in the GitHub ecosystem.  
+- **A rigorous end-to-end overview**: the session cut across the entire SDLC, showing clearly how CI/CD solves systemic problems and where it fits into modern delivery pipelines.  
+- **Realigning fundamentals with cloud-native practice**: I had previously been responsible for modernising Jenkins pipelines and improving reproducibility so my team could migrate toward cloud-native workflows. Revisiting the fundamentals here let me validate those instincts against current best practices, and translate my production-hardened instincts into today's ecosystem.  
+- **Breadth with depth**: in four hours we covered best practices, VSCode add-ons for DX, dependency management, deployment trade-offs, and GitHub Actions design patterns — with room to challenge and clarify live..  
+- **Perspective on emphasis**: seeing how an experienced practitioner framed “0→1” learning highlighted what the community regards as the *non-negotiables* versus the optional details.  
 
 ---
 
 ## 🌱 Reflections
 
-- The most “student-level” overviews can still be the most comprehensive — senior practice is about keeping the **whole picture sharp**, not just depth.  
-- Revisiting the fundamentals in a rigorous, structured way surfaced blind spots and let me re-audit defaults I’d carried forward from the production battlefield, as well as to check my assumptions against evolving best practises.  
+- Senior practice isn’t just deep specialisation — it’s keeping the **whole picture sharp** and checking assumptions against evolving best practices.  
+- Revisiting fundamentals in a rigorous way helped surface blind spots and re-audit defaults I’d built up through production battles.  
 - Communities that open-source this kind of structured knowledge are invaluable; they sharpen the craft for everyone.  
+  
 
 ---
 
