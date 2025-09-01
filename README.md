@@ -4,7 +4,8 @@
 > This readme has been drafted up by ChatGPT, so a quick overview on what I've done can be thrown up in the interim: Esme hopes to have a writeup done in her own voice in due time <3
 
 This repo (and [EsmeAioli/countingbook](https://github.com/EsmeAioli/countingbook)) is a record of my hands-on learning at the [**Geekshacking Git Ready For Action** CI/CD Workshop](https://www.eventbrite.sg/e/git-ready-for-action-workshop-tickets-1609903969109) (August 2025) at [GovTech Singapore](https://github.com/govtechsg).  
-Neither repo includes code I wrote from scratch — the infra pieces were built as part of the workshop’s exercises.  
+
+Neither repo includes code I wrote from scratch - look to [Chuk's](https://github.com/chukmunnlee) [code](https://github.com/chukmunnlee/geekshacking-workshop-2025-aug30) for the source of this 🙂 — the infra pieces were built as part of the workshop’s exercises.  
 
 I’m keeping this here because even as a practicing engineer, going to these workshops to get a structured, rigoured “back to basics” overview is incredibly valuable.
 
